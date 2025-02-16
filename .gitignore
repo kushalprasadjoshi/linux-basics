@@ -1,2 +1,6 @@
 # Ignore all log files
 *.log
+
+# Ignore all word documents
+*.doc
+*.docx
