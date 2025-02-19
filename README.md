@@ -1,5 +1,10 @@
 # Basic Linux
 
+Access the [Basic Linux Handbook](/resources/linux-basics-handbook.pdf) here.
+
+[![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-brightgreen.svg)](https://github.com/KushalPrasadJoshi/programming-in-c/pulls)
+![Status](https://img.shields.io/badge/Status-Active-brightgreen)
+
 ## Table of Contents
 1. [Users in Linux](#users-in-linux)
 2. [Text Editors](#text-editors)
