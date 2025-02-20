@@ -2,7 +2,7 @@
 
 Access the [Basic Linux Handbook](/resources/linux-basics-handbook.pdf) here.
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-brightgreen.svg)](https://github.com/KushalPrasadJoshi/programming-in-c/pulls)
+[![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-brightgreen.svg)](https://github.com/KushalPrasadJoshi/linux-basics/pulls)
 ![Status](https://img.shields.io/badge/Status-Active-brightgreen)
 
 ## Table of Contents
