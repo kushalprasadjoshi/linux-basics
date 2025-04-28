@@ -1,9 +1,11 @@
 # Basic Linux
 
-Access the [Basic Linux Handbook](/resources/linux-basics-handbook.pdf) here.
+[![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-brightgreen.svg)](https://github.com/kushalprasadjoshi/linux-basics/pulls)
+![Status](https://img.shields.io/badge/Status-Inactive-red)
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-brightgreen.svg)](https://github.com/KushalPrasadJoshi/linux-basics/pulls)
-![Status](https://img.shields.io/badge/Status-Active-brightgreen)
+![Linux](https://logos-world.net/wp-content/uploads/2020/09/Linux-Logo-1996-present.png)
+
+Access the [Linux Basics Handbook](./resources/linux-basics-handbook.pdf) here.
 
 ## Table of Contents
 1. [Users in Linux](#users-in-linux)
@@ -37,6 +39,8 @@ Access the [Basic Linux Handbook](/resources/linux-basics-handbook.pdf) here.
     - [And (`&&`)](#and-)
     - [Or (`||`)](#or-)
 
+---
+
 ## Users in Linux
 - **Regular User:** Home directory
 - **Root User:** Full access [ADMIN] (the superuser of the system)
@@ -45,6 +49,8 @@ Access the [Basic Linux Handbook](/resources/linux-basics-handbook.pdf) here.
 > **Note:**  
 > If a regular user gains root access, they can use `sudo` before any command to utilize root privileges.  
 > To get full root access, use the `sudo su` command.
+
+---
 
 ## Text Editors
 
@@ -55,6 +61,8 @@ Vim is a popular text editor in Linux. Common commands include:
 - **:wq:** Exit and save changes
 - **:q!:** Exit without saving changes
 
+---
+
 ## Basic File System
 - **/bin:** Basic programs (e.g., `ls`, `cd`, `mv`)
 - **/sbin:** System programs (e.g., `fdisk`, `sysctl`, `mkfs`)
@@ -64,6 +72,8 @@ Vim is a popular text editor in Linux. Common commands include:
 - **/usr/share:** Application support and data files
 - **/home:** Personal directories of users
 - **/root:** Home directory of the superuser [ADMIN]
+
+---
 
 ## Paths in Linux
 Below is an example of a directory structure:
@@ -99,6 +109,8 @@ Desktop
 - **Ctrl + E:** Move the cursor to the end of the line  
 - **Shift + Ctrl + C:** Copy text in the terminal  
 - **Shift + Ctrl + V:** Paste text in the terminal
+
+---
 
 ## Basic Linux Commands
 
@@ -140,6 +152,8 @@ Desktop
 > **Note:**  
 > In newer Linux versions, you can often use `sudo su` instead of `sudo su root`.
 
+---
+
 ## Chmod Calculator
 - **Usage:**  
   ```bash
@@ -151,6 +165,8 @@ Desktop
 
 > **Note:**  
 > The format for permissions is typically Owner, Group, Public.
+
+---
 
 ## Executing Software
 - **./filename:** Execute a shell file.
@@ -166,6 +182,8 @@ Desktop
 > - `apt-get upgrade` updates all packages and tools.  
 > - In newer Linux distributions, the `apt` command is often used in place of `apt-get`.
 
+---
+
 ## Process Manipulation
 - **top:** Displays processes consuming the most resources.
 - **ps:** Shows the current processes.
@@ -178,6 +196,8 @@ Desktop
 > **Note:**  
 > - Use `kill PID` to terminate a process by its process ID (PID).  
 > - `Ctrl + C` can stop an ongoing process in the terminal.
+
+---
 
 ## Changing Hostname
 1. Gain root access:
@@ -196,6 +216,8 @@ Desktop
     ```bash
     reboot
     ```
+
+---
 
 ## Changing Domain Name
 1. Gain root access:
@@ -216,6 +238,8 @@ Desktop
     ```
 5. Access your domain by entering your IP address and port (e.g., `Kushal:80`) in a browser.
 
+---
+
 ## Configuring Apache Server
 1. Start the Apache server:
     ```bash
@@ -234,6 +258,8 @@ Desktop
 > Use `ifconfig` to find your IP address (e.g., `inet 192.168.78.141`).  
 > Apache typically runs on port 80 by default.
 
+---
+
 ## Changing Apache Port
 1. Navigate to the configuration directory:
     ```bash
@@ -249,6 +275,8 @@ Desktop
     service apache2 restart
     ```
 4. Verify by accessing your IP with the new port (e.g., `192.168.78.141:8080`).
+
+---
 
 ## Software Installation Without Apt
 
@@ -278,6 +306,8 @@ Desktop
 
 > **Note:**  
 > Always follow the installation instructions provided on GitHub for best results.
+
+---
 
 ## Error Resolving in Linux Apt
 
@@ -313,6 +343,8 @@ rm -rf /var/lib/apt/list/*
 apt-get update
 ```
 
+---
+
 ## Running Multiple Commands in a Single Terminal
 
 ### Semicolon (`;`)
@@ -336,8 +368,11 @@ apt-get update
   cd || ls
   ```
 
+---
+
 ## License
-This repository is licensed under an **All Rights Reserved** license. You may fork and use the code for personal, educational, and non-commercial purposes only. Modifying, distributing, or using the code for commercial purposes is strictly prohibited without explicit permission. Please refer to the [LICENSE](LICENSE) file for further details.
+This repository is licensed under the [MIT License](LICENSE). You are free to use, modify, and distribute the code, provided that the original copyright 
+notice and license text are included in all copies or substantial portions of the Software.
 
 ---
 
